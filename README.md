@@ -1,4 +1,4 @@
-# Kail DOcker
+# Kail Docker
 Kali Docker is a ready-to-use Docker image based on [Kali Linux Rolling](https://www.kali.org/) that comes preconfigured with an XFCE desktop environment, VNC server, and noVNC for browser-based remote desktop access. This project is ideal for security professionals, penetration testers, and anyone who needs a portable Kali environment with most tools available out-of-the-box.
 
 ## Features
