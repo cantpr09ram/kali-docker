@@ -55,3 +55,12 @@ cd kali-docker
 docker build -t myKali --build-arg KALI_DESKTOP=xfce KALI_METAPACKAGE=large .
 docker run --rm -it -p 9020:8080 -p 9021:5900 myKali
 ```
+
+```
+docker build -t mykali .
+docker run --rm -it --privileged -p 9020:8080 -p 9021:5900 mykali
+```
+```
+docker build -t mykali .
+docker run -d --privileged --name mykali -p 9020:8080 -p 9021:5900 mykali
+```
